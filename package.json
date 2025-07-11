@@ -1,0 +1,37 @@
+{
+  "name": "auraplay",
+  "version": "1.0.0",
+  "description": "**AuraPlay - Universal RSS parser for React (Web and Native)**  \r *supporting modern and legacy RSS/Atom feed formats.*",
+  "keywords": [
+    "auraplay",
+    "rss",
+    "atom",
+    "feed",
+    "parser",
+    "react",
+    "react-native",
+    "xml",
+    "rss-parser"
+  ],
+  "homepage": "https://github.com/hytek-org/AuraPlay#readme",
+  "bugs": {
+    "url": "https://github.com/hytek-org/AuraPlay/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hytek-org/AuraPlay.git"
+  },
+  "license": "MIT",
+  "author": "Kuldeep Sharma",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
