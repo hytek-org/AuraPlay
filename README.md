@@ -1,133 +1,34 @@
+
 # AuraPlay  
-**Offline AI-Powered Smart Music Video Player**  
-*Next-generation intelligent media experience, powered entirely in-browser.*
+**Universal RSS Parser for React Web and React Native**  
+*Supports modern and legacy RSS & Atom feed formats with robust XML parsing.*
 
 ---
 
 ## 📌 Overview
 
-**AuraPlay** is an intelligent, offline-first music video player that responds to your mood, gestures, and vibe — no server, no cloud, no compromise.
+**AuraPlay** is a lightweight, universal RSS/Atom feed parser built specifically for modern React environments — both **React Web** and **React Native**.
 
-Built using modern web technologies and in-browser machine learning, AuraPlay delivers a futuristic, immersive entertainment interface that runs 100% client-side. It combines emotion recognition and gesture control to adapt your audio-visual experience in real time — all while keeping your data local and secure.
-
----
-
-## ✅ Core Features
-
-### 🎧 Local Media Playback
-- Upload and manage local music and video files.
-- Create and manage playlists.
-- HTML5-native playback (`<audio>`, `<video>`).
-- Essential controls: play, pause, volume, seek, shuffle.
-
-### 🖐 Gesture Control System
-- Uses **TensorFlow.js** and **MediaPipe Hands** (offline).
-- Default gesture mappings:
-  - 🖐 Open palm → Play/Pause  
-  - 👈👉 Swipe Left/Right → Previous/Next  
-  - ✌️ Two fingers Up/Down → Volume  
-  - ✊ Fist → Stop  
-  - 👌 OK sign → Toggle visualizer
-
-### 😊 Emotion Detection Engine
-- Uses **face-api.js** (lightweight offline model).
-- Maps detected emotion to music mood:
-  - 😀 Happy → Energetic / Pop  
-  - 😢 Sad → Chill / Slow  
-  - 😠 Angry → Intense / Instrumental  
-  - 😐 Neutral → LoFi / Background
-
-### 🧠 Mood-Adaptive Playback
-- Polls emotion every 5–10 seconds.
-- Automatically adjusts playlists to match mood.
-- **“Vibe Lock”** option disables automatic switching.
-
-### 🎨 Visualizer Mode
-- WebGL/Canvas-based reactive visuals.
-- Optional beat detection via **Tone.js**.
-- Mood-driven themes: color, speed, intensity.
-
-### 🔒 Fully Offline Architecture
-- No server or internet required.
-- All AI models and media stored locally.
-- Preferences and data saved via **IndexedDB** / **LocalStorage**.
-
-### ⚙️ Customization Dashboard
-- Remap gestures to custom actions.
-- Edit emotion-to-playlist mappings.
-- Switch themes (light, dark, or dynamic).
-- Export/import local settings.
+It uses modern, efficient XML parsing tools to support even the most outdated and malformed RSS formats while maintaining compatibility with all modern feeds.
 
 ---
 
-## 🧠 Tech Stack
+## ✅ Features
 
-| Category       | Technology |
-|----------------|------------|
-| **Frontend**   | HTML5, CSS3, JavaScript (ES6+),TailwindCSS |
-| **AI / ML**    | TensorFlow.js, face-api.js, MediaPipe Hands |
-| **Audio / Visual** | Web Audio API, WebGL, Canvas, Tone.js (optional) |
-| **Storage**    | IndexedDB, LocalStorage |
-| **Architecture** | 100% Offline / Client-Side Only |
-
----
-
-## 🗂 Project Structure
-
-```
-AuraPlay/
-├── index.html
-├── style.css
-├── app.js
-├── models/
-│   ├── face-api/
-│   ├── handpose/
-│   └── gesture-custom/
-├── assets/
-│   ├── music/
-│   ├── videos/
-│   └── thumbnails/
-├── js/
-│   ├── mediaManager.js        # Playback, playlists, local media
-│   ├── gestureController.js   # Hand gesture recognition logic
-│   ├── emotionEngine.js       # Real-time mood detection
-│   ├── visualizer.js          # Audio-reactive visual rendering
-│   └── settings.js            # UI preferences, mappings
-```
+- 📦 **Works in React & React Native**
+- 🧠 **Supports RSS 1.0, 2.0, Atom, and custom feeds**
+- ⚙️ **Handles namespaced, mixed-format, and malformed feeds**
+- 🚀 **Built with `fast-xml-parser` for performance**
+- 📜 **Typescript support with complete typings**
+- 🪶 **Lightweight, no external runtime dependencies**
 
 ---
 
-## 🔍 Ideal Use Cases
-
-- AI-powered personal music experience.
-- Smart media interface prototypes.
-- Accessible, touchless media control.
-- Frontend ML portfolio projects.
-- Emotion-aware entertainment systems.
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/AuraPlay.git
-cd AuraPlay
-```
-
-### 2. Open `index.html`
-This project runs entirely in the browser. No installation or build steps required.
-
-### 3. Upload Your Media
-Use the UI to load your local music and video files.
-
-### 4. Enable Webcam Access
-Camera is used for gesture and facial emotion detection (locally only).
 
 
 ## 🤝 Contributing
 
-I welcome contributions, feedback, and ideas.  
+Contributions are welcome!
 Feel free to fork the repo, open issues, or submit pull requests.
 
 ---
@@ -140,8 +41,7 @@ Feel free to fork the repo, open issues, or submit pull requests.
 
 ## 👤 Maintainer
 
-**[Your Name]**  
-[GitHub](https://github.com/kuldeepsharma1) · [LinkedIn](https://linkedin.com/in/kuldeepsharma22) ·
+**Kuldeep Sharma**
+[GitHub](https://github.com/kuldeepsharma1) · [LinkedIn](https://linkedin.com/in/kuldeepsharma22)
 
 ---
-
